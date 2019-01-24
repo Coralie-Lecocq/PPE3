@@ -36,14 +36,23 @@
     <ClCompile Include="PP3.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Accueil.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="PP3.h">
       <Filter>Header Files</Filter>
     </QtMoc>
+    <QtMoc Include="Accueil.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="PP3.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
+    <QtUic Include="Accueil.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>
