@@ -2,6 +2,7 @@
 
 #include <QtWidgets/QMainWindow>
 #include "ui_PP3.h"
+#include "gestion_mat_view.h"
 #include "Accueil.h"
 
 class PP3 : public QMainWindow
@@ -13,6 +14,7 @@ public:
 
 private:
 	Ui::PP3Class ui;
-	Accueil* accueilview;
 
+	gestion_mat_view* gestionview;
+	Accueil* accueilview;
 };
