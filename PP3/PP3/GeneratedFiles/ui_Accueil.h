@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'Accueil.ui'
 **
-** Created by: Qt User Interface Compiler version 5.12.0
+** Created by: Qt User Interface Compiler version 5.11.2
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -33,29 +33,29 @@ public:
     void setupUi(QWidget *Accueil)
     {
         if (Accueil->objectName().isEmpty())
-            Accueil->setObjectName(QString::fromUtf8("Accueil"));
-        Accueil->resize(1087, 742);
+            Accueil->setObjectName(QStringLiteral("Accueil"));
+        Accueil->resize(1087, 729);
         QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
         sizePolicy.setHeightForWidth(Accueil->sizePolicy().hasHeightForWidth());
         Accueil->setSizePolicy(sizePolicy);
-        Accueil->setStyleSheet(QString::fromUtf8("QToolButton {backgroud-color:red;}"));
+        Accueil->setStyleSheet(QStringLiteral("QToolButton {backgroud-color:red;}"));
         verticalLayout = new QVBoxLayout(Accueil);
         verticalLayout->setSpacing(6);
         verticalLayout->setContentsMargins(11, 11, 11, 11);
-        verticalLayout->setObjectName(QString::fromUtf8("verticalLayout"));
+        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
         horizontalLayout = new QHBoxLayout();
         horizontalLayout->setSpacing(6);
-        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
         facturation = new QToolButton(Accueil);
-        facturation->setObjectName(QString::fromUtf8("facturation"));
+        facturation->setObjectName(QStringLiteral("facturation"));
         sizePolicy.setHeightForWidth(facturation->sizePolicy().hasHeightForWidth());
         facturation->setSizePolicy(sizePolicy);
         facturation->setMinimumSize(QSize(160, 130));
         facturation->setMaximumSize(QSize(160, 130));
         QIcon icon;
-        icon.addFile(QString::fromUtf8(":/PP3/resources/icons8-facture-d'achat-100.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon.addFile(QStringLiteral(":/PP3/resources/icons8-facture-d'achat-100.png"), QSize(), QIcon::Normal, QIcon::Off);
         facturation->setIcon(icon);
         facturation->setIconSize(QSize(100, 100));
         facturation->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
@@ -63,83 +63,13 @@ public:
         horizontalLayout->addWidget(facturation);
 
         GestionMat = new QToolButton(Accueil);
-        GestionMat->setObjectName(QString::fromUtf8("GestionMat"));
+        GestionMat->setObjectName(QStringLiteral("GestionMat"));
         sizePolicy.setHeightForWidth(GestionMat->sizePolicy().hasHeightForWidth());
         GestionMat->setSizePolicy(sizePolicy);
         GestionMat->setMinimumSize(QSize(160, 130));
         GestionMat->setMaximumSize(QSize(160, 130));
-        QPalette palette;
-        QBrush brush(QColor(0, 0, 0, 255));
-        brush.setStyle(Qt::SolidPattern);
-        palette.setBrush(QPalette::Active, QPalette::WindowText, brush);
-        QBrush brush1(QColor(255, 170, 0, 255));
-        brush1.setStyle(Qt::SolidPattern);
-        palette.setBrush(QPalette::Active, QPalette::Button, brush1);
-        QBrush brush2(QColor(255, 213, 127, 255));
-        brush2.setStyle(Qt::SolidPattern);
-        palette.setBrush(QPalette::Active, QPalette::Light, brush2);
-        QBrush brush3(QColor(255, 191, 63, 255));
-        brush3.setStyle(Qt::SolidPattern);
-        palette.setBrush(QPalette::Active, QPalette::Midlight, brush3);
-        QBrush brush4(QColor(127, 85, 0, 255));
-        brush4.setStyle(Qt::SolidPattern);
-        palette.setBrush(QPalette::Active, QPalette::Dark, brush4);
-        QBrush brush5(QColor(170, 113, 0, 255));
-        brush5.setStyle(Qt::SolidPattern);
-        palette.setBrush(QPalette::Active, QPalette::Mid, brush5);
-        palette.setBrush(QPalette::Active, QPalette::Text, brush);
-        QBrush brush6(QColor(255, 255, 255, 255));
-        brush6.setStyle(Qt::SolidPattern);
-        palette.setBrush(QPalette::Active, QPalette::BrightText, brush6);
-        palette.setBrush(QPalette::Active, QPalette::ButtonText, brush);
-        palette.setBrush(QPalette::Active, QPalette::Base, brush6);
-        palette.setBrush(QPalette::Active, QPalette::Window, brush1);
-        palette.setBrush(QPalette::Active, QPalette::Shadow, brush);
-        QBrush brush7(QColor(255, 212, 127, 255));
-        brush7.setStyle(Qt::SolidPattern);
-        palette.setBrush(QPalette::Active, QPalette::AlternateBase, brush7);
-        QBrush brush8(QColor(255, 255, 220, 255));
-        brush8.setStyle(Qt::SolidPattern);
-        palette.setBrush(QPalette::Active, QPalette::ToolTipBase, brush8);
-        palette.setBrush(QPalette::Active, QPalette::ToolTipText, brush);
-        QBrush brush9(QColor(0, 0, 0, 128));
-        brush9.setStyle(Qt::SolidPattern);
-        palette.setBrush(QPalette::Active, QPalette::PlaceholderText, brush9);
-        palette.setBrush(QPalette::Inactive, QPalette::WindowText, brush);
-        palette.setBrush(QPalette::Inactive, QPalette::Button, brush1);
-        palette.setBrush(QPalette::Inactive, QPalette::Light, brush2);
-        palette.setBrush(QPalette::Inactive, QPalette::Midlight, brush3);
-        palette.setBrush(QPalette::Inactive, QPalette::Dark, brush4);
-        palette.setBrush(QPalette::Inactive, QPalette::Mid, brush5);
-        palette.setBrush(QPalette::Inactive, QPalette::Text, brush);
-        palette.setBrush(QPalette::Inactive, QPalette::BrightText, brush6);
-        palette.setBrush(QPalette::Inactive, QPalette::ButtonText, brush);
-        palette.setBrush(QPalette::Inactive, QPalette::Base, brush6);
-        palette.setBrush(QPalette::Inactive, QPalette::Window, brush1);
-        palette.setBrush(QPalette::Inactive, QPalette::Shadow, brush);
-        palette.setBrush(QPalette::Inactive, QPalette::AlternateBase, brush7);
-        palette.setBrush(QPalette::Inactive, QPalette::ToolTipBase, brush8);
-        palette.setBrush(QPalette::Inactive, QPalette::ToolTipText, brush);
-        palette.setBrush(QPalette::Inactive, QPalette::PlaceholderText, brush9);
-        palette.setBrush(QPalette::Disabled, QPalette::WindowText, brush4);
-        palette.setBrush(QPalette::Disabled, QPalette::Button, brush1);
-        palette.setBrush(QPalette::Disabled, QPalette::Light, brush2);
-        palette.setBrush(QPalette::Disabled, QPalette::Midlight, brush3);
-        palette.setBrush(QPalette::Disabled, QPalette::Dark, brush4);
-        palette.setBrush(QPalette::Disabled, QPalette::Mid, brush5);
-        palette.setBrush(QPalette::Disabled, QPalette::Text, brush4);
-        palette.setBrush(QPalette::Disabled, QPalette::BrightText, brush6);
-        palette.setBrush(QPalette::Disabled, QPalette::ButtonText, brush4);
-        palette.setBrush(QPalette::Disabled, QPalette::Base, brush1);
-        palette.setBrush(QPalette::Disabled, QPalette::Window, brush1);
-        palette.setBrush(QPalette::Disabled, QPalette::Shadow, brush);
-        palette.setBrush(QPalette::Disabled, QPalette::AlternateBase, brush1);
-        palette.setBrush(QPalette::Disabled, QPalette::ToolTipBase, brush8);
-        palette.setBrush(QPalette::Disabled, QPalette::ToolTipText, brush);
-        palette.setBrush(QPalette::Disabled, QPalette::PlaceholderText, brush9);
-        GestionMat->setPalette(palette);
         QIcon icon1;
-        icon1.addFile(QString::fromUtf8(":/PP3/resources/icons8-gestion-de-projet-100.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon1.addFile(QStringLiteral(":/PP3/resources/icons8-gestion-de-projet-100.png"), QSize(), QIcon::Normal, QIcon::Off);
         GestionMat->setIcon(icon1);
         GestionMat->setIconSize(QSize(100, 100));
         GestionMat->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
@@ -147,13 +77,13 @@ public:
         horizontalLayout->addWidget(GestionMat);
 
         reservation = new QToolButton(Accueil);
-        reservation->setObjectName(QString::fromUtf8("reservation"));
+        reservation->setObjectName(QStringLiteral("reservation"));
         sizePolicy.setHeightForWidth(reservation->sizePolicy().hasHeightForWidth());
         reservation->setSizePolicy(sizePolicy);
         reservation->setMinimumSize(QSize(160, 130));
         reservation->setMaximumSize(QSize(160, 130));
         QIcon icon2;
-        icon2.addFile(QString::fromUtf8(":/PP3/resources/reservation.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon2.addFile(QStringLiteral(":/PP3/resources/reservation.png"), QSize(), QIcon::Normal, QIcon::Off);
         reservation->setIcon(icon2);
         reservation->setIconSize(QSize(100, 100));
         reservation->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
@@ -161,13 +91,13 @@ public:
         horizontalLayout->addWidget(reservation);
 
         visualisation = new QToolButton(Accueil);
-        visualisation->setObjectName(QString::fromUtf8("visualisation"));
+        visualisation->setObjectName(QStringLiteral("visualisation"));
         sizePolicy.setHeightForWidth(visualisation->sizePolicy().hasHeightForWidth());
         visualisation->setSizePolicy(sizePolicy);
         visualisation->setMinimumSize(QSize(160, 130));
         visualisation->setMaximumSize(QSize(160, 130));
         QIcon icon3;
-        icon3.addFile(QString::fromUtf8(":/PP3/resources/icons8-visible-100.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon3.addFile(QStringLiteral(":/PP3/resources/icons8-visible-100.png"), QSize(), QIcon::Normal, QIcon::Off);
         visualisation->setIcon(icon3);
         visualisation->setIconSize(QSize(100, 100));
         visualisation->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);
@@ -175,13 +105,13 @@ public:
         horizontalLayout->addWidget(visualisation);
 
         deconnexion = new QToolButton(Accueil);
-        deconnexion->setObjectName(QString::fromUtf8("deconnexion"));
+        deconnexion->setObjectName(QStringLiteral("deconnexion"));
         sizePolicy.setHeightForWidth(deconnexion->sizePolicy().hasHeightForWidth());
         deconnexion->setSizePolicy(sizePolicy);
         deconnexion->setMinimumSize(QSize(160, 130));
         deconnexion->setMaximumSize(QSize(160, 130));
         QIcon icon4;
-        icon4.addFile(QString::fromUtf8(":/PP3/resources/icons8-effacer-filled-100.png"), QSize(), QIcon::Normal, QIcon::Off);
+        icon4.addFile(QStringLiteral(":/PP3/resources/icons8-effacer-filled-100.png"), QSize(), QIcon::Normal, QIcon::Off);
         deconnexion->setIcon(icon4);
         deconnexion->setIconSize(QSize(100, 100));
         deconnexion->setToolButtonStyle(Qt::ToolButtonTextUnderIcon);

@@ -11,12 +11,12 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
-#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTabWidget>
 #include <QtWidgets/QToolBar>
+#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -25,13 +25,10 @@ class Ui_PP3Class
 {
 public:
     QWidget *centralWidget;
+    QVBoxLayout *verticalLayout;
     QTabWidget *tabWidget;
     QWidget *tab;
     QWidget *tab_2;
-    QHBoxLayout *horizontalLayout;
-    QTabWidget *tabWidget1;
-    QWidget *tab1;
-    QWidget *tab_21;
     QMenuBar *menuBar;
     QToolBar *mainToolBar;
     QStatusBar *statusBar;
@@ -43,29 +40,20 @@ public:
         PP3Class->resize(881, 759);
         centralWidget = new QWidget(PP3Class);
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
+        verticalLayout = new QVBoxLayout(centralWidget);
+        verticalLayout->setSpacing(6);
+        verticalLayout->setContentsMargins(11, 11, 11, 11);
+        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
         tabWidget = new QTabWidget(centralWidget);
         tabWidget->setObjectName(QStringLiteral("tabWidget"));
-        tabWidget->setGeometry(QRect(24, 19, 821, 661));
         tab = new QWidget();
         tab->setObjectName(QStringLiteral("tab"));
         tabWidget->addTab(tab, QString());
         tab_2 = new QWidget();
         tab_2->setObjectName(QStringLiteral("tab_2"));
         tabWidget->addTab(tab_2, QString());
-        horizontalLayout = new QHBoxLayout(centralWidget);
-        horizontalLayout->setSpacing(6);
-        horizontalLayout->setContentsMargins(11, 11, 11, 11);
-        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
-        tabWidget1 = new QTabWidget(centralWidget);
-        tabWidget1->setObjectName(QStringLiteral("tabWidget1"));
-        tab1 = new QWidget();
-        tab1->setObjectName(QStringLiteral("tab1"));
-        tabWidget1->addTab(tab1, QString());
-        tab_21 = new QWidget();
-        tab_21->setObjectName(QStringLiteral("tab_21"));
-        tabWidget1->addTab(tab_21, QString());
 
-        horizontalLayout->addWidget(tabWidget1);
+        verticalLayout->addWidget(tabWidget);
 
         PP3Class->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(PP3Class);
@@ -92,8 +80,6 @@ public:
         PP3Class->setWindowTitle(QApplication::translate("PP3Class", "PP3", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab), QApplication::translate("PP3Class", "Tab 1", nullptr));
         tabWidget->setTabText(tabWidget->indexOf(tab_2), QApplication::translate("PP3Class", "Tab 2", nullptr));
-        tabWidget1->setTabText(tabWidget1->indexOf(tab1), QApplication::translate("PP3Class", "Tab 1", nullptr));
-        tabWidget1->setTabText(tabWidget1->indexOf(tab_21), QApplication::translate("PP3Class", "Tab 2", nullptr));
     } // retranslateUi
 
 };
