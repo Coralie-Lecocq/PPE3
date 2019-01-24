@@ -1,4 +1,8 @@
 <RCC>
-    <qresource prefix="PP3">
+    <qresource prefix="/PP3">
+        <file>resources/icons8-gestion-de-projet-100.png</file>
+        <file>resources/reservation.png</file>
+        <file>resources/icons8-facture-d'achat-100.png</file>
+        <file>resources/icons8-effacer-filled-100.png</file>
     </qresource>
 </RCC>
