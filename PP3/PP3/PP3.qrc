@@ -1,4 +1,5 @@
 <RCC>
-    <qresource prefix="PP3">
+    <qresource prefix="/PP3">
+        <file>resources/icons8-approval-96.png</file>
     </qresource>
 </RCC>

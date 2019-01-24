@@ -2,6 +2,7 @@
 
 #include <QtWidgets/QMainWindow>
 #include "ui_PP3.h"
+#include "reservation.h"
 
 class PP3 : public QMainWindow
 {
@@ -12,4 +13,6 @@ public:
 
 private:
 	Ui::PP3Class ui;
+	reservation* reservationview;
+
 };
