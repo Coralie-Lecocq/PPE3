@@ -10,6 +10,51 @@
       <Platform>x64</Platform>
     </ProjectConfiguration>
   </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Accueil.cpp" />
+    <ClCompile Include="gestion_mat_view.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="PP3.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="gestion_mat_view.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="Accueil.ui" />
+    <QtUic Include="gestion_mat_view.ui" />
+    <QtUic Include="PP3.ui" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="PP3.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="PP3.qrc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="resources\icons8-effacer-filled-100.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="resources\icons8-facture-d%27achat-100.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="resources\icons8-gestion-de-projet-100.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="resources\icons8-visible-100.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Image>
+    <Image Include="resources\reservation.png">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Release|x64'">true</ExcludedFromBuild>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="Accueil.h" />
+  </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{B12702AD-ABFB-343A-A199-8E24837244A3}</ProjectGuid>
     <Keyword>Qt4VSv1.0</Keyword>

@@ -17,6 +17,7 @@
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTabWidget>
 #include <QtWidgets/QToolBar>
+#include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
 QT_BEGIN_NAMESPACE
@@ -26,6 +27,7 @@ class Ui_PP3Class
 public:
     QWidget *centralWidget;
     QHBoxLayout *horizontalLayout;
+    QVBoxLayout *verticalLayout;
     QTabWidget *tabWidget;
     QWidget *tab;
     QWidget *tab_2;
@@ -46,6 +48,13 @@ public:
         horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         tabWidget = new QTabWidget(centralWidget);
         tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
+        centralWidget->setObjectName(QStringLiteral("centralWidget"));
+        verticalLayout = new QVBoxLayout(centralWidget);
+        verticalLayout->setSpacing(6);
+        verticalLayout->setContentsMargins(11, 11, 11, 11);
+        verticalLayout->setObjectName(QStringLiteral("verticalLayout"));
+        tabWidget = new QTabWidget(centralWidget);
+        tabWidget->setObjectName(QStringLiteral("tabWidget"));
         tab = new QWidget();
         tab->setObjectName(QString::fromUtf8("tab"));
         tabWidget->addTab(tab, QString());
@@ -54,6 +63,7 @@ public:
         tabWidget->addTab(tab_2, QString());
 
         horizontalLayout->addWidget(tabWidget);
+        verticalLayout->addWidget(tabWidget);
 
         PP3Class->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(PP3Class);
@@ -68,6 +78,9 @@ public:
         PP3Class->setStatusBar(statusBar);
 
         retranslateUi(PP3Class);
+
+        tabWidget->setCurrentIndex(0);
+
 
         QMetaObject::connectSlotsByName(PP3Class);
     } // setupUi

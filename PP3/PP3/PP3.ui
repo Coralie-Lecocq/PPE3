@@ -14,9 +14,12 @@
    <string>PP3</string>
   </property>
   <widget class="QWidget" name="centralWidget">
-   <layout class="QHBoxLayout" name="horizontalLayout">
+   <layout class="QVBoxLayout" name="verticalLayout">
     <item>
      <widget class="QTabWidget" name="tabWidget">
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
       <widget class="QWidget" name="tab">
        <attribute name="title">
         <string>Tab 1</string>

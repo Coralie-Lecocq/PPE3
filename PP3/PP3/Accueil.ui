@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Accueil</class>
+ <widget class="QWidget" name="Accueil">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1087</width>
+    <height>729</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="windowTitle">
+   <string>Accueil</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QToolButton {backgroud-color:red;}</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QToolButton" name="facturation">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>160</width>
+         <height>130</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>160</width>
+         <height>130</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Facturation</string>
+       </property>
+       <property name="icon">
+        <iconset resource="PP3.qrc">
+         <normaloff>:/PP3/resources/icons8-facture-d'achat-100.png</normaloff>:/PP3/resources/icons8-facture-d'achat-100.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="GestionMat">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>160</width>
+         <height>130</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>160</width>
+         <height>130</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Gestion Materiel</string>
+       </property>
+       <property name="icon">
+        <iconset resource="PP3.qrc">
+         <normaloff>:/PP3/resources/icons8-gestion-de-projet-100.png</normaloff>:/PP3/resources/icons8-gestion-de-projet-100.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="reservation">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>160</width>
+         <height>130</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>160</width>
+         <height>130</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Reservation</string>
+       </property>
+       <property name="icon">
+        <iconset resource="PP3.qrc">
+         <normaloff>:/PP3/resources/reservation.png</normaloff>:/PP3/resources/reservation.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="visualisation">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>160</width>
+         <height>130</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>160</width>
+         <height>130</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Visualisation</string>
+       </property>
+       <property name="icon">
+        <iconset resource="PP3.qrc">
+         <normaloff>:/PP3/resources/icons8-visible-100.png</normaloff>:/PP3/resources/icons8-visible-100.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QToolButton" name="deconnexion">
+       <property name="sizePolicy">
+        <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+         <horstretch>0</horstretch>
+         <verstretch>0</verstretch>
+        </sizepolicy>
+       </property>
+       <property name="minimumSize">
+        <size>
+         <width>160</width>
+         <height>130</height>
+        </size>
+       </property>
+       <property name="maximumSize">
+        <size>
+         <width>160</width>
+         <height>130</height>
+        </size>
+       </property>
+       <property name="text">
+        <string>Deconnexion</string>
+       </property>
+       <property name="icon">
+        <iconset resource="PP3.qrc">
+         <normaloff>:/PP3/resources/icons8-effacer-filled-100.png</normaloff>:/PP3/resources/icons8-effacer-filled-100.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>100</width>
+         <height>100</height>
+        </size>
+       </property>
+       <property name="toolButtonStyle">
+        <enum>Qt::ToolButtonTextUnderIcon</enum>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources>
+  <include location="PP3.qrc"/>
+ </resources>
+ <connections/>
+</ui>
