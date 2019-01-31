@@ -38,6 +38,9 @@
     <ClCompile Include="Accueil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="reservation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="gestion_mat_view.h">
@@ -50,6 +53,9 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="Accueil.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
+    <QtMoc Include="reservation.h">
       <Filter>Header Files</Filter>
     </QtMoc>
   </ItemGroup>

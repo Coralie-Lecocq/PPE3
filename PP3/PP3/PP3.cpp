@@ -4,6 +4,7 @@ PP3::PP3(QWidget *parent)
 	: QMainWindow(parent)
 {
 	ui.setupUi(this);
+        
   ui.tabWidget->clear();
     
  	accueilview = new Accueil();
@@ -14,4 +15,14 @@ PP3::PP3(QWidget *parent)
 
 	this->gestionview = new gestion_mat_view();
 	ui.tabWidget->addTab(gestionview, "gestion mat");
+
+        
+	//connect(ui.pushbuttonreservation, &QAbstractButton::clicked, this, &PP3::reservationSlot);
+}
+
+void PP3::reservationSlot()
+{
+
+    
+    
 }

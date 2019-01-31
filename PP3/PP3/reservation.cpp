@@ -8,4 +8,5 @@ reservation::reservation(QWidget *parent)
 
 reservation::~reservation()
 {
+    
 }

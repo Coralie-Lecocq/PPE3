@@ -26,7 +26,7 @@
    <item>
     <layout class="QHBoxLayout" name="horizontalLayout">
      <item>
-      <widget class="QToolButton" name="facturation">
+      <widget class="QToolButton" name="pushbuttonfacturation">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
          <horstretch>0</horstretch>
@@ -64,7 +64,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QToolButton" name="GestionMat">
+      <widget class="QToolButton" name="pushbuttonGestionMat">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
          <horstretch>0</horstretch>
@@ -102,7 +102,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QToolButton" name="reservation">
+      <widget class="QToolButton" name="pushbuttonreservation">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
          <horstretch>0</horstretch>
@@ -140,7 +140,7 @@
       </widget>
      </item>
      <item>
-      <widget class="QToolButton" name="visualisation">
+      <widget class="QToolButton" name="pushbuttonvisualisation">
        <property name="sizePolicy">
         <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
          <horstretch>0</horstretch>
