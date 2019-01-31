@@ -13,13 +13,11 @@ class PP3 : public QMainWindow
 
 public:
 	PP3(QWidget *parent = Q_NULLPTR);
+	void reservationSlot(int);
 
 private:
 	Ui::PP3Class ui;
 	reservation* reservationview;
 	gestion_mat_view* gestionview;
 	Accueil* accueilview;
-
-	void reservationSlot();
-
 };

@@ -1,4 +1,5 @@
 #include "PP3.h"
+#include "ui_PP3.h"
 
 PP3::PP3(QWidget *parent)
 	: QMainWindow(parent)
@@ -16,13 +17,13 @@ PP3::PP3(QWidget *parent)
 	this->gestionview = new gestion_mat_view();
 	ui.tabWidget->addTab(gestionview, "gestion mat");
 
-        
-	//connect(ui.pushbuttonreservation, &QAbstractButton::clicked, this, &PP3::reservationSlot);
+	//connect(accueilview, SIGNAL(ChangementPages()), , SLOT(Nom slot()));
+	connect(accueilview, &Accueil::ChangementPages, this, &PP3::reservationSlot);
+	
+
 }
 
-void PP3::reservationSlot()
+void PP3::reservationSlot(int index) 
 {
-
-    
-    
+	ui.tabWidget->setCurrentIndex(index);
 }
