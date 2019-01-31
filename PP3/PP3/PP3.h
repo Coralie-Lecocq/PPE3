@@ -2,6 +2,7 @@
 
 #include <QtWidgets/QMainWindow>
 #include "ui_PP3.h"
+#include "reservation.h"
 #include "gestion_mat_view.h"
 #include "Accueil.h"
 
@@ -14,7 +15,7 @@ public:
 
 private:
 	Ui::PP3Class ui;
-
+	reservation* reservationview;
 	gestion_mat_view* gestionview;
 	Accueil* accueilview;
 };

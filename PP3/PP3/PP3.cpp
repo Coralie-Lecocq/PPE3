@@ -4,11 +4,14 @@ PP3::PP3(QWidget *parent)
 	: QMainWindow(parent)
 {
 	ui.setupUi(this);
-	ui.tabWidget->clear();
+  ui.tabWidget->clear();
+    
+ 	accueilview = new Accueil();
+	ui.tabWidget->addTab(accueilview, "Accueil");
+   
+	reservationview = new reservation();
+  ui.tabWidget->addTab(reservationview, "Reserver une borne");
 
 	this->gestionview = new gestion_mat_view();
-	ui.tabWidget->addTab(gestionview, "gestion mat");
-	accueilview = new Accueil();
-	ui.tabWidget->addTab(accueilview, "Accueil");
-
+	ui.tabWidget->addTab(gestionview, "gestion mat")
 }

@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'PP3.ui'
 **
-** Created by: Qt User Interface Compiler version 5.11.2
+** Created by: Qt User Interface Compiler version 5.12.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -11,6 +11,7 @@
 
 #include <QtCore/QVariant>
 #include <QtWidgets/QApplication>
+#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QMainWindow>
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QStatusBar>
@@ -25,6 +26,7 @@ class Ui_PP3Class
 {
 public:
     QWidget *centralWidget;
+    QHBoxLayout *horizontalLayout;
     QVBoxLayout *verticalLayout;
     QTabWidget *tabWidget;
     QWidget *tab;
@@ -36,9 +38,16 @@ public:
     void setupUi(QMainWindow *PP3Class)
     {
         if (PP3Class->objectName().isEmpty())
-            PP3Class->setObjectName(QStringLiteral("PP3Class"));
+            PP3Class->setObjectName(QString::fromUtf8("PP3Class"));
         PP3Class->resize(881, 759);
         centralWidget = new QWidget(PP3Class);
+        centralWidget->setObjectName(QString::fromUtf8("centralWidget"));
+        horizontalLayout = new QHBoxLayout(centralWidget);
+        horizontalLayout->setSpacing(6);
+        horizontalLayout->setContentsMargins(11, 11, 11, 11);
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
+        tabWidget = new QTabWidget(centralWidget);
+        tabWidget->setObjectName(QString::fromUtf8("tabWidget"));
         centralWidget->setObjectName(QStringLiteral("centralWidget"));
         verticalLayout = new QVBoxLayout(centralWidget);
         verticalLayout->setSpacing(6);
@@ -47,24 +56,25 @@ public:
         tabWidget = new QTabWidget(centralWidget);
         tabWidget->setObjectName(QStringLiteral("tabWidget"));
         tab = new QWidget();
-        tab->setObjectName(QStringLiteral("tab"));
+        tab->setObjectName(QString::fromUtf8("tab"));
         tabWidget->addTab(tab, QString());
         tab_2 = new QWidget();
-        tab_2->setObjectName(QStringLiteral("tab_2"));
+        tab_2->setObjectName(QString::fromUtf8("tab_2"));
         tabWidget->addTab(tab_2, QString());
 
+        horizontalLayout->addWidget(tabWidget);
         verticalLayout->addWidget(tabWidget);
 
         PP3Class->setCentralWidget(centralWidget);
         menuBar = new QMenuBar(PP3Class);
-        menuBar->setObjectName(QStringLiteral("menuBar"));
-        menuBar->setGeometry(QRect(0, 0, 881, 26));
+        menuBar->setObjectName(QString::fromUtf8("menuBar"));
+        menuBar->setGeometry(QRect(0, 0, 881, 21));
         PP3Class->setMenuBar(menuBar);
         mainToolBar = new QToolBar(PP3Class);
-        mainToolBar->setObjectName(QStringLiteral("mainToolBar"));
+        mainToolBar->setObjectName(QString::fromUtf8("mainToolBar"));
         PP3Class->addToolBar(Qt::TopToolBarArea, mainToolBar);
         statusBar = new QStatusBar(PP3Class);
-        statusBar->setObjectName(QStringLiteral("statusBar"));
+        statusBar->setObjectName(QString::fromUtf8("statusBar"));
         PP3Class->setStatusBar(statusBar);
 
         retranslateUi(PP3Class);
