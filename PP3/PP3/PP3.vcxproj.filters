@@ -23,9 +23,6 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="gestion_mat_view.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -33,6 +30,11 @@
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="reservation.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gestion_mat_view.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
     <ClCompile Include="Accueil.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
@@ -45,6 +47,8 @@
       <Filter>Header Files</Filter>
     </QtMoc>
     <QtMoc Include="reservation.h">
+      <Filter>Header Files</Filter>
+    </QtMoc>
     <QtMoc Include="Accueil.h">
       <Filter>Header Files</Filter>
     </QtMoc>
@@ -56,10 +60,10 @@
     <QtUic Include="PP3.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="reservation.ui">
+    <QtUic Include="Accueil.ui">
       <Filter>Form Files</Filter>
     </QtUic>
-    <QtUic Include="Accueil.ui">
+    <QtUic Include="reservation.ui">
       <Filter>Form Files</Filter>
     </QtUic>
   </ItemGroup>

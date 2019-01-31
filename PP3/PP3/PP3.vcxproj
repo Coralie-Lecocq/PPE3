@@ -11,18 +11,13 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="Accueil.cpp" />
-    <ClCompile Include="gestion_mat_view.cpp" />
-    <ClCompile Include="main.cpp" />
-    <ClCompile Include="PP3.cpp" />
-  </ItemGroup>
-  <ItemGroup>
     <QtMoc Include="gestion_mat_view.h" />
   </ItemGroup>
   <ItemGroup>
     <QtUic Include="Accueil.ui" />
     <QtUic Include="gestion_mat_view.ui" />
     <QtUic Include="PP3.ui" />
+    <QtUic Include="reservation.ui" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="PP3.h" />
@@ -158,19 +153,11 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Accueil.cpp" />
+    <ClCompile Include="gestion_mat_view.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="PP3.cpp" />
     <ClCompile Include="reservation.cpp" />
-  </ItemGroup>
-  <ItemGroup>
-    <QtMoc Include="PP3.h" />
-  </ItemGroup>
-  <ItemGroup>
-    <QtUic Include="PP3.ui" />
-    <QtUic Include="reservation.ui" />
-  </ItemGroup>
-  <ItemGroup>
-    <QtRcc Include="PP3.qrc" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="reservation.h">

@@ -13,5 +13,5 @@ PP3::PP3(QWidget *parent)
   ui.tabWidget->addTab(reservationview, "Reserver une borne");
 
 	this->gestionview = new gestion_mat_view();
-	ui.tabWidget->addTab(gestionview, "gestion mat")
+	ui.tabWidget->addTab(gestionview, "gestion mat");
 }

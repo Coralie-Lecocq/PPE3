@@ -1,7 +1,7 @@
 /********************************************************************************
 ** Form generated from reading UI file 'gestion_mat_view.ui'
 **
-** Created by: Qt User Interface Compiler version 5.11.2
+** Created by: Qt User Interface Compiler version 5.12.0
 **
 ** WARNING! All changes made in this file will be lost when recompiling UI file!
 ********************************************************************************/
@@ -47,25 +47,25 @@ public:
     void setupUi(QWidget *gestion_mat_view)
     {
         if (gestion_mat_view->objectName().isEmpty())
-            gestion_mat_view->setObjectName(QStringLiteral("gestion_mat_view"));
+            gestion_mat_view->setObjectName(QString::fromUtf8("gestion_mat_view"));
         gestion_mat_view->resize(865, 236);
         verticalLayout_7 = new QVBoxLayout(gestion_mat_view);
         verticalLayout_7->setSpacing(6);
         verticalLayout_7->setContentsMargins(11, 11, 11, 11);
-        verticalLayout_7->setObjectName(QStringLiteral("verticalLayout_7"));
+        verticalLayout_7->setObjectName(QString::fromUtf8("verticalLayout_7"));
         horizontalLayout = new QHBoxLayout();
         horizontalLayout->setSpacing(6);
-        horizontalLayout->setObjectName(QStringLiteral("horizontalLayout"));
+        horizontalLayout->setObjectName(QString::fromUtf8("horizontalLayout"));
         verticalLayout_6 = new QVBoxLayout();
         verticalLayout_6->setSpacing(6);
-        verticalLayout_6->setObjectName(QStringLiteral("verticalLayout_6"));
+        verticalLayout_6->setObjectName(QString::fromUtf8("verticalLayout_6"));
         label_2 = new QLabel(gestion_mat_view);
-        label_2->setObjectName(QStringLiteral("label_2"));
+        label_2->setObjectName(QString::fromUtf8("label_2"));
 
         verticalLayout_6->addWidget(label_2);
 
         label_3 = new QLabel(gestion_mat_view);
-        label_3->setObjectName(QStringLiteral("label_3"));
+        label_3->setObjectName(QString::fromUtf8("label_3"));
 
         verticalLayout_6->addWidget(label_3);
 
@@ -74,9 +74,9 @@ public:
 
         verticalLayout_5 = new QVBoxLayout();
         verticalLayout_5->setSpacing(6);
-        verticalLayout_5->setObjectName(QStringLiteral("verticalLayout_5"));
+        verticalLayout_5->setObjectName(QString::fromUtf8("verticalLayout_5"));
         comboBox_2 = new QComboBox(gestion_mat_view);
-        comboBox_2->setObjectName(QStringLiteral("comboBox_2"));
+        comboBox_2->setObjectName(QString::fromUtf8("comboBox_2"));
         QSizePolicy sizePolicy(QSizePolicy::Fixed, QSizePolicy::Fixed);
         sizePolicy.setHorizontalStretch(0);
         sizePolicy.setVerticalStretch(0);
@@ -88,7 +88,7 @@ public:
         verticalLayout_5->addWidget(comboBox_2);
 
         comboBox = new QComboBox(gestion_mat_view);
-        comboBox->setObjectName(QStringLiteral("comboBox"));
+        comboBox->setObjectName(QString::fromUtf8("comboBox"));
         sizePolicy.setHeightForWidth(comboBox->sizePolicy().hasHeightForWidth());
         comboBox->setSizePolicy(sizePolicy);
         comboBox->setMinimumSize(QSize(300, 30));
@@ -105,16 +105,16 @@ public:
 
         verticalLayout_4 = new QVBoxLayout();
         verticalLayout_4->setSpacing(6);
-        verticalLayout_4->setObjectName(QStringLiteral("verticalLayout_4"));
+        verticalLayout_4->setObjectName(QString::fromUtf8("verticalLayout_4"));
         pushButton_2 = new QPushButton(gestion_mat_view);
-        pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
+        pushButton_2->setObjectName(QString::fromUtf8("pushButton_2"));
         pushButton_2->setMinimumSize(QSize(100, 30));
         pushButton_2->setMaximumSize(QSize(100, 30));
 
         verticalLayout_4->addWidget(pushButton_2);
 
         pushButton_3 = new QPushButton(gestion_mat_view);
-        pushButton_3->setObjectName(QStringLiteral("pushButton_3"));
+        pushButton_3->setObjectName(QString::fromUtf8("pushButton_3"));
         pushButton_3->setMinimumSize(QSize(100, 30));
         pushButton_3->setMaximumSize(QSize(100, 30));
 
@@ -125,10 +125,10 @@ public:
 
         verticalLayout_3 = new QVBoxLayout();
         verticalLayout_3->setSpacing(6);
-        verticalLayout_3->setObjectName(QStringLiteral("verticalLayout_3"));
+        verticalLayout_3->setObjectName(QString::fromUtf8("verticalLayout_3"));
         verticalLayout_3->setContentsMargins(-1, -1, 0, -1);
         lineEdit = new QLineEdit(gestion_mat_view);
-        lineEdit->setObjectName(QStringLiteral("lineEdit"));
+        lineEdit->setObjectName(QString::fromUtf8("lineEdit"));
         QSizePolicy sizePolicy1(QSizePolicy::Fixed, QSizePolicy::Fixed);
         sizePolicy1.setHorizontalStretch(200);
         sizePolicy1.setVerticalStretch(30);
@@ -139,7 +139,7 @@ public:
         verticalLayout_3->addWidget(lineEdit);
 
         lineEdit_2 = new QLineEdit(gestion_mat_view);
-        lineEdit_2->setObjectName(QStringLiteral("lineEdit_2"));
+        lineEdit_2->setObjectName(QString::fromUtf8("lineEdit_2"));
         sizePolicy1.setHeightForWidth(lineEdit_2->sizePolicy().hasHeightForWidth());
         lineEdit_2->setSizePolicy(sizePolicy1);
         lineEdit_2->setMinimumSize(QSize(200, 30));
@@ -151,9 +151,9 @@ public:
 
         verticalLayout_2 = new QVBoxLayout();
         verticalLayout_2->setSpacing(6);
-        verticalLayout_2->setObjectName(QStringLiteral("verticalLayout_2"));
+        verticalLayout_2->setObjectName(QString::fromUtf8("verticalLayout_2"));
         pushButton = new QPushButton(gestion_mat_view);
-        pushButton->setObjectName(QStringLiteral("pushButton"));
+        pushButton->setObjectName(QString::fromUtf8("pushButton"));
         QSizePolicy sizePolicy2(QSizePolicy::Minimum, QSizePolicy::Fixed);
         sizePolicy2.setHorizontalStretch(100);
         sizePolicy2.setVerticalStretch(30);
@@ -165,7 +165,7 @@ public:
         verticalLayout_2->addWidget(pushButton);
 
         pushButton_4 = new QPushButton(gestion_mat_view);
-        pushButton_4->setObjectName(QStringLiteral("pushButton_4"));
+        pushButton_4->setObjectName(QString::fromUtf8("pushButton_4"));
         sizePolicy2.setHeightForWidth(pushButton_4->sizePolicy().hasHeightForWidth());
         pushButton_4->setSizePolicy(sizePolicy2);
         pushButton_4->setMinimumSize(QSize(100, 30));
