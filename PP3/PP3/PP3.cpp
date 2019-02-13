@@ -14,8 +14,11 @@ PP3::PP3(QWidget *parent)
 	reservationview = new reservation();
   ui.tabWidget->addTab(reservationview, "Reserver une borne");
 
-	this->gestionview = new gestion_mat_view();
+	gestionview = new gestion_mat_view();
 	ui.tabWidget->addTab(gestionview, "gestion mat");
+
+	facturationview = new facturation();
+	ui.tabWidget->addTab(facturationview, "facturation");
 
 	//connect(accueilview, SIGNAL(ChangementPages()), , SLOT(Nom slot()));
 	connect(accueilview, &Accueil::ChangementPages, this, &PP3::reservationSlot);

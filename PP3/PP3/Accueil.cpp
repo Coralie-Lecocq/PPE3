@@ -29,14 +29,14 @@ void Accueil::reservationSlot()
 void Accueil::gestionmatSlot()
 {
 
-
+	emit ChangementPages(2);
 
 }
 
 void Accueil::facturationSlot()
 {
 
-
+	emit ChangementPages(3);
 
 }
 

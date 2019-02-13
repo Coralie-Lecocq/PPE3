@@ -6,6 +6,7 @@
 #include "gestion_mat_view.h"
 #include "Accueil.h"
 #include "reservation.h"
+#include "facturation.h"
 
 class PP3 : public QMainWindow
 {
@@ -20,4 +21,5 @@ private:
 	reservation* reservationview;
 	gestion_mat_view* gestionview;
 	Accueil* accueilview;
+	facturation* facturationview;
 };
