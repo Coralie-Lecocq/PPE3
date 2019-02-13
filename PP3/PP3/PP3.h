@@ -18,8 +18,8 @@ public:
 
 private:
 	Ui::PP3Class ui;
-	reservation* reservationview;
-	gestion_mat_view* gestionview;
+	Reservation* reservationview;
+	Gestion_mat_view* gestionview;
 	Accueil* accueilview;
-	facturation* facturationview;
+	Facturation* facturationview;
 };

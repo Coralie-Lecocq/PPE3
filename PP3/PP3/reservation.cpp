@@ -1,12 +1,12 @@
 #include "reservation.h"
 
-reservation::reservation(QWidget *parent)
+Reservation::Reservation(QWidget *parent)
 	: QWidget(parent)
 {
 	ui.setupUi(this);
 }
 
-reservation::~reservation()
+Reservation::~Reservation()
 {
     
 }

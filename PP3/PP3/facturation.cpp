@@ -1,11 +1,11 @@
 #include "facturation.h"
 
-facturation::facturation(QObject *parent)
+Facturation::Facturation(QObject *parent)
 	: QObject(parent)
 {
 }
 
-facturation::~facturation()
+Facturation::~Facturation()
 {
 
 }

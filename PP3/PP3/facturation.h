@@ -1,16 +1,16 @@
 #pragma once
 
 #include <QWidget>
-#include "ui_facturation.h"
-class facturation : public QObject
+
+class Facturation : public QObject
 {
 	Q_OBJECT
 
 public:
 	
-	facturation(QObject *parent);
-	~facturation();
+	Facturation(QObject *parent);
+	~Facturation();
 private:
 
-	Ui::facturation ui;
+	Ui::Facturation ui;
 };

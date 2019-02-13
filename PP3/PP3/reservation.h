@@ -3,14 +3,14 @@
 #include <QWidget>
 #include "ui_reservation.h"
 
-class reservation : public QWidget
+class Reservation : public QWidget
 {
 	Q_OBJECT
 
 public:
-	reservation(QWidget *parent = Q_NULLPTR);
-	~reservation();
+	Reservation(QWidget *parent = Q_NULLPTR);
+	~Reservation();
 
 private:
-	Ui::reservation ui;
+	Ui::Reservation ui;
 };
