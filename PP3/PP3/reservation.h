@@ -12,5 +12,5 @@ public:
 	~Reservation();
 
 private:
-	Ui::Reservation ui;
+	Ui::reservation ui;
 };

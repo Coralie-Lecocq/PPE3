@@ -78,6 +78,9 @@
     <QtUic Include="reservation.ui">
       <Filter>Form Files</Filter>
     </QtUic>
+    <QtUic Include="facturation.ui">
+      <Filter>Form Files</Filter>
+    </QtUic>
   </ItemGroup>
   <ItemGroup>
     <Image Include="resources\icons8-gestion-de-projet-100.png">

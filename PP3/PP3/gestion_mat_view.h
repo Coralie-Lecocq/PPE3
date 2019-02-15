@@ -18,6 +18,6 @@ public:
 	}
 
 private:
-	Ui::Gestion_mat_view ui;
+	Ui::gestion_mat_view ui;
 
 };

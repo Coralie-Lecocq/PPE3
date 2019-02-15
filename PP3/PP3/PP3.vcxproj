@@ -18,6 +18,7 @@
     <QtUic Include="gestion_mat_view.ui" />
     <QtUic Include="PP3.ui" />
     <QtUic Include="reservation.ui" />
+    <QtUic Include="facturation.ui" />
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="PP3.h" />

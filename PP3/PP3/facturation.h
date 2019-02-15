@@ -1,16 +1,27 @@
-#pragma once
+#ifndef BILLINGTABWIGDTE_H
+#define BILLINGTABWIGDTE_H
 
 #include <QWidget>
+#include <QWebEngineView>
+#include "ui_facturation.h"
+#include "Model.h"
 
-class Facturation : public QObject
+class BillingTabWidget : public QWidget
 {
 	Q_OBJECT
 
 public:
-	
-	Facturation(QObject *parent);
-	~Facturation();
-private:
+	BillingTabWidget(Model& model, QWidget *parent = nullptr);
 
-	Ui::Facturation ui;
+private:
+	void addBorneSlot(Borne const& borne);
+	void updateBornes();
+	void refreshBill();
+
+private:
+	Ui::BillingTabWidget m_ui;
+	Model& m_model;
+	QWebEngineView* m_webview;
 };
+
+#endif // BILLINGTABWIGDTE_H
